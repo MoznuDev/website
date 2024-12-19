@@ -1,0 +1,519 @@
+/* Common Css Start  */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  overflow-x: hidden;
+}
+ul,ol{
+  list-style-type: none;
+}
+a,a:hover{
+  text-decoration: none;
+  display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding:0;
+  line-height: 0.8;
+}
+/* Common Css Start  */
+/* header part Start  */
+/* sticky Header  */
+.sticky_name{
+  background: teal;
+  animation: alamin 1s;
+  }
+  @keyframes alamin{
+  from{
+  top: -100px;
+  }
+  to{
+  top: 0;
+  }
+  }
+/* sticky Header  */
+.nav-item{
+  font-size: 18px;
+  font-weight: 400px;
+  padding: 0 20px;
+  margin-top: 20px;
+  }
+.nav-item a{
+  color: #FAFAFE;
+}
+.nav-item span{
+  font-size: 15px;
+  padding: 5px;
+}
+.contractBTN{
+  padding: 10px 15px;
+  background:#1BBF00;
+  border-radius: 20px;
+}
+.contractBTN a{
+  color:#FFFFFF;
+  }
+/* header part Start  */
+
+/* Banner part Start  */
+#bannerPart{
+  background: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bannerOverly{
+  padding: 250px 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.bannerText h1{
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 100%;
+  color:#FAFAFE ;
+  text-transform:uppercase;
+  font-family: "Open Sans", serif;
+}
+.bannerText p{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  color:#E6E5F3 ;
+  font-family: "Paprika", serif;
+  padding:0 170px;
+  text-align: center;
+  margin-top: 50px;
+
+}
+.bannerBTN{
+  display: flex;
+  margin-left:400px;
+  margin-top: 30px;
+}
+.btnLeft a{
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: #FAFAFE;
+  background:#1BBF00;
+}
+.btnRight {
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: #FAFAFE;
+  border: 1px solid green;
+  margin-left: 60px;
+}
+/* Banner part Start  */
+
+/* Counter part Start  */
+#counterPart{
+ background: url(../images/bg\ \(3\).png);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.counterOverly{
+  padding: 150px 0;
+ }
+ .counterImg{
+  margin-top:-300px;
+ }
+ .counterItem{
+  margin-top: 40px;
+ }
+ .counterItem h2{
+  color: #1BBF00;
+  font-size: 64px;
+  font-weight:700;
+  line-height: 40px;
+ }
+ .counterItem h4{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #141135;
+  margin-top: 40px;
+ }
+/* Counter part Start  */
+
+/* Problem part Start  */
+#problemPart{
+  padding: 100px 0;
+  background:url(../images/bg\ \(4\).png)
+}
+.problemText{
+  display: flex;
+  padding: 30px;
+  border-radius: 10px;
+ row-gap: 20px;
+}
+.icon1{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #1BBF00;
+
+}
+.icon2{
+  height: 50px;
+  width: 50px;
+  background: #141135;
+  border-radius: 50%; 
+  margin-top: -50px;
+  margin-left:20px;
+}
+.iconText{
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 200px;
+  line-height: 50px;
+}
+.problemItem{
+  margin-top: 40px;
+}
+.problemItem h3{
+  font-size: 36px;
+  font-weight: 500;
+  color: #141135;
+}
+.problemItem h6{
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 300px;
+  line-height: 26px;
+}
+.itenBTN a{
+  margin-top: 50px;
+  padding: 10px 20px;
+  background: #1BBF00;
+  border-radius: 20px;
+  color: #E6E5F3;
+}
+/* Problem part Start  */
+
+/* Design part Start  */
+#designPaet{
+  padding: 80px 0;
+  background: #F6F5FF;
+  row-gap: 30px;
+}
+.designIcon h3{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #141135;
+}
+.designIcon p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #141135;
+  margin: 30px 0;
+}
+.designBTN a{
+padding: 10px 15px;
+background: #1BBF00;
+border-radius: 20px;
+color: #E6E5F3;
+}
+.webText{
+  background: #6B62C5;
+  padding: 40px 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+.webImg{
+  text-align: center;
+}
+.webText h3{
+  font-size: 26px;
+  color: #E6E5F3;
+}
+.webText p{
+  font-size: 18px;
+  margin-top: 30px;
+  padding:0 50px;
+  line-height: 26px;
+  color: #E6E5F3;
+}
+.webBTN a{
+  padding: 10px 0;
+  color: #E6E5F3;
+  margin-top:30px;
+}
+.Read a{
+  color: #141135;
+}
+.webicon{
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background: #1BBF00;
+  height: 30px;
+  width: 30px;
+  margin-top: -35px;
+  margin-left: 190px;
+}
+.marketing{
+  background:#FFFFFF;
+  border-radius: 20px;
+  text-align: center;
+  padding: 30px;
+}
+.marketing h3{
+  font-size: 36px;
+  font-weight: 500;
+  color: #141135;
+  margin-top: 20px;
+}
+.marketing p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  padding:0 40px;
+  margin-top: 20px;
+}
+/* Design part Start  */
+
+/* Real part Start  */
+#realPart{
+background: url(../images/bg\ \(5\).png);
+padding: 120px 0;
+text-align: center;
+}
+.realText h3{
+  font-size: 48px;
+  font-weight: 700;
+  color: #141135;
+}
+.realText p{
+  font-size: 18px;
+  font-weight: 400px;
+  line-height:26px;
+  color: #141135;
+  margin-top: 30px;
+  padding:0 85px;
+}
+.realItem{
+display: flex;
+margin-top: 80px;
+}
+.realRight h4{
+  font-size: 30px;
+  font-weight: 500;
+  color: #141135;
+}
+.realRight p{
+  font-size: 18px;
+  color: #141135;
+  padding:0 140px;
+  margin-top: 30px;
+  line-height: 26px;
+}
+/* Real part Start  */
+
+/* Plan part Start  */
+#planPart{
+  padding: 100px 0;
+  background: #F9F9FB;
+  text-align: center;
+}
+.planText{
+  font-size: 48px;
+  font-weight: 700;
+  color: #141135;
+  margin-bottom: 80px;
+}
+.planOne{
+  background: #E6E5F3;
+  border-radius: 20px;
+  padding: 70px 0px;
+  text-align: center;
+}
+.planOne h4{
+font-size: 30px;
+color:#141135;
+padding: 10px 0;
+
+}
+.planOne h3{
+  font-size: 36px;
+  color: #1BBF00;
+  margin-top: 20px;
+}
+.planImg{
+  background: #F6F5FF;
+}
+.planOne p{
+  font-size: 18px;
+  color: #141135;
+  padding: 20px 130px;
+  line-height: 26px;
+}
+.planOne1 h3{
+  font-size: 36px;
+  color: #1BBF00;
+  margin-top: 20px;
+}
+.planOne1 p{
+  font-size: 18px;
+  color: #141135;
+  padding: 20px 130px;
+  line-height: 26px;
+}
+.planOne1 h4{
+  font-size: 30px;
+  color:#141135;
+  padding: 10px 0;
+  }
+  .planOne1{
+    background:#6B62C5;
+    border-radius: 20px;
+    padding: 70px 0px;
+    text-align: center;
+  }
+/* Plan part Start  */
+
+/* Thinking part Start  */
+#thinkingPart{
+  padding: 100px 0;
+  text-align: center;
+} 
+.thinkingText h3{
+  font-size: 48px;
+  font-weight: 700;
+  color: #141135;
+}
+.thinkingItem{
+  background: #E6E5F3;
+  margin-top:165px;
+  padding-bottom: 50px;
+}
+.thinkingItem img{
+  margin-top: -100px;
+}
+.thinkingItem a{
+  padding-top: -90px;
+  color: #FF7628;
+  font-weight: 700;
+}
+.thinkingItem p{
+font-size: 18px;
+color: #141135;
+padding: 0 280px;
+line-height: 26px;
+padding-top: 30px;
+}
+.thinkingItem h5{
+  margin-top: 70px;
+}
+.thinkingItem h6{
+  padding-top: 30px;
+}
+.thinkingIcon{
+  text-align: center;
+  padding-top:400px;  
+}
+.thinkingIcon a{
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  background: #1BBF00;
+  color: #F6F5FF;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+/* Thinking  part Start  */
+
+/* Like part Start  */
+#likePart{
+  padding: 70px;
+  background: url(../images/bg\ \(4\).png);
+}
+.likeItem{
+  padding: 40px 0;
+  padding-left: 100px;
+}
+.likeRight li{
+  display: inline-block;
+  padding:0 10px;
+  
+}
+.likeRight{
+  margin-left: -50px;
+  margin-top: 50px;
+}
+.likeText h3{
+  padding-left: 100px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #141135;
+}
+.likeLeft h3{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-left: 40px;
+}
+.likeBTN{
+  margin-left:40px;
+  padding-top: 10px;
+}
+.likeicon1{
+  height: 30px;
+  width: 30px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 105px;
+  background: rgba(91, 138, 84, 0.877);
+  margin-top: -25px;
+}
+/* Like part Start  */
+
+/* Innovet part Start  */
+#innovetPart{
+  background: #48409C;
+  padding: 70px 0;
+}
+.innovetLogo img{
+  padding-top: 40px;
+  margin-bottom: 70px;
+} 
+.innovet p{
+  padding: 40px 0;
+  font-size: 18px;
+  color: #141135;
+  font-weight: 600px;
+  line-height: 26px;
+  color: #F9F9FB;
+}
+.innovet h6{
+  padding: 60px;
+  color: #F9F9FB;
+}
+.features{
+  padding-top: 70px;
+}
+.features li{
+  padding: 15px 0;
+  color: #F9F9FB;
+}
+.features h5{
+  color: #FFFFFF;
+}
+.end{
+  color: #FFFFFF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* Innovet part Start  */
